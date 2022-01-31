@@ -1,4 +1,4 @@
-name: discord
+name: c20s-discord
 version: 0.0.1
 main: creeperplayer20\discord\Main
 api: 4.0.8
