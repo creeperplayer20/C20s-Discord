@@ -1,4 +1,4 @@
-# discord
+# C20s Discord
 Sends a custom discord invite link
 
 ### Commands
