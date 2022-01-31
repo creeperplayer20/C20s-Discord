@@ -1,3 +1,5 @@
+<img src="https://github.com/creeperplayer20/C20s-Discord/blob/main/icon.png" alt="C20s Discord logo" title="C20s Discord" align="center">
+
 # C20s Discord
 Sends a custom discord invite link
 
