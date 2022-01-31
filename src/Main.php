@@ -19,6 +19,10 @@ public function onEnable() : void{
 
     $this->getLogger()->info("[§aC20§r - §bDiscord§r] §6 Plugin is loaded!");
 
+    $this->reloadConfig();
+    $this->saveDefaultConfig();
+    $this->getConfig()->save();
+
 }
 
 public function onDisable() : void{
@@ -30,7 +34,7 @@ public function onDisable() : void{
 public function onCommand(CommandSender $sender,Command $cmd,string $label,array $args) : bool{
 
     if($cmd->getName() == "discord"){
-        $sender->sendMessage("§7{§bSprigo§6Craft§7}§r - Invite link §bdiscord.gg/VwXjTZYsdh");
+        $sender->sendMessage($keyFromConfig = $this->getConfig()->get("message"));
 
 } return true;
 
