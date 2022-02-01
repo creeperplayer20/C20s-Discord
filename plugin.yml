@@ -6,7 +6,7 @@ src-namespace-prefix: creeperplayer20\discord
 
 commands:
     discord:
-        description: "Sends a §bdiscord§f invite link"
+        description: "§o§7Sends a §bdiscord§f§7 invite link"
         usage: "/discord"
         permission: "discord.command"
 permissions:
