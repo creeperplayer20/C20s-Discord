@@ -10,14 +10,7 @@ use pocketmine\command\CommandSender;
 
 class Main extends PluginBase {
 
-public function onLoad() : void {
-
-    $this->getLogger()->info("[§aC20§r - §bDiscord§r] §6 Plugin is loading!");
-
-}
 public function onEnable() : void{
-
-    $this->getLogger()->info("[§aC20§r - §bDiscord§r] §6 Plugin is loaded!");
 
     $this->reloadConfig();
     $this->saveDefaultConfig();
@@ -27,7 +20,7 @@ public function onEnable() : void{
 
 public function onDisable() : void{
 
-    $this->getLogger()->info("[§aC20§r - §bDiscord§r] §4 Plugin is disabled!");
+    $this->getLogger()->info("[§aC20§r - §bDiscord§r] §4Plugin is disabled!");
 
 }
 
