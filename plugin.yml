@@ -1,4 +1,4 @@
-name: c20s-discord
+name: discord
 version: 0.0.1
 main: creeperplayer20\discord\Main
 api: 4.0.8
@@ -9,6 +9,12 @@ commands:
         description: "§o§7Sends a §bdiscord§f§7 invite link"
         usage: "/discord"
         permission: "discord.command"
+    dc:
+        description: "§o§7Sends a §bdiscord§f§7 invite link"
+        usage: "/dc"
+        permission: "dc.command"
 permissions:
     discord.command:
+        default: true
+    dc.command:
         default: true
