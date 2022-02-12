@@ -1,20 +1,15 @@
-name: discord
+name: Discord
 version: 0.0.1
 main: creeperplayer20\discord\Main
-api: 4.0.8
+api: 4.2.0
 src-namespace-prefix: creeperplayer20\discord
 
 commands:
     discord:
         description: "§o§7Sends a §bdiscord§f§7 invite link"
         usage: "/discord"
-        permission: "discord.command"
-    dc:
-        description: "§o§7Sends a §bdiscord§f§7 invite link"
-        usage: "/dc"
-        permission: "dc.command"
+        aliases: [dc]
+        permission: "discord.use"
 permissions:
-    discord.command:
-        default: true
-    dc.command:
+    discord.use:
         default: true
