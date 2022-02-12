@@ -21,12 +21,6 @@ public function onCommand(CommandSender $sender,Command $cmd,string $label,array
     if($cmd->getName() == "discord"){
         $sender->sendMessage($keyFromConfig = $this->getConfig()->get("message"));
 
-}
-
-    if($cmd->getName() == "dc"){
-        $sender->sendMessage($keyFromConfig = $this->getConfig()->get("message"));
-
 } return true;
 
-}
-}
+}}
